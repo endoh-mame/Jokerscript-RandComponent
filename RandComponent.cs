@@ -19,7 +19,7 @@ namespace Novel{
 			string varName = this.param ["var"];
 			float min = float.Parse(this.param ["min"]);
 			float max = float.Parse(this.param ["max"]);
-			float rand = Mathf.Floor(Random.value * (max - min)) + min;
+			float rand = Random.Range(min, max + 1);
 			string randStr = ((int)rand).ToString();
 			string exp = "f." + varName + "=" + randStr;
 			// Debug.Log(exp);
