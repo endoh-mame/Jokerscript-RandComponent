@@ -1,10 +1,14 @@
 # Jokerscript-RandComponent
 
-# Overview
+## Overview
 
-Jokerscriptから乱数を生成するプラグイン
+Jokerscriptで乱数を生成するプラグイン
 
-# Usage
+## Install
+
+`JOKER_GAME/Plugins`にRandComponent.csを置く
+
+## Usage
 
 ```
 ; 0から10までの乱数を変数testに代入
@@ -14,3 +18,7 @@ Jokerscriptから乱数を生成するプラグイン
 [rand var="test2" min=-10 max=10]
 {f.test2}[p]
 ```
+
+## Licence
+
+MIT
